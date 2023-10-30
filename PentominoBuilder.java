@@ -116,10 +116,8 @@ public class PentominoBuilder {
             for (int j = 0; j < 4; j++) {
                 tempDatabase[j] = moveToAbove(rotate(makeBigger(basicDatabase[i], 5), j));
             }
-
-            // same as above, but flipping it
             for (int j = 0; j < 4; j++) {
-                tempDatabase[4 + j] = moveToAbove(rotate(verticalFlip(makeBigger(basicDatabase[i], 5)), j));
+                tempDatabase[4 + j] = moveToAbove(rotate(makeBigger(basicDatabase[i], 5), j));
             }
 
             // erase duplicates
@@ -170,44 +168,6 @@ public class PentominoBuilder {
             }
         }
         return tempData1;
-    }
-
-    /**
-     * Flip the matrix vertically
-     * It makes a copy, the input matrix stays unchanged
-     * 
-     * @param data: a matrix
-     * @return the flipped matrix
-     */
-    public static int[][] verticalFlip(int[][] data) {
-        // make a matrix of the same size
-        int[][] returnData = new int[data.length][data[0].length];
-        // flip the matrix to the return matrix
-        for (int i = 0; i < data.length; i++) {
-            for (int j = 0; j < data[i].length; j++) {
-                returnData[i][j] = data[i][data[i].length - j - 1];
-            }
-        }
-        return returnData;
-    }
-
-    /**
-     * Flip the matrix horizontally
-     * It makes a copy, the input matrix stays unchanged
-     * 
-     * @param data a matrix
-     * @return the flipped matrix
-     */
-    public static int[][] horizontalFlip(int[][] data) {
-        // make a matrix of the same size
-        int[][] returnData = new int[data.length][data[0].length];
-        // flip the matrix to the return matrix
-        for (int i = 0; i < data.length; i++) {
-            for (int j = 0; j < data[i].length; j++) {
-                returnData[i][j] = data[data.length - i - 1][j];
-            }
-        }
-        return returnData;
     }
 
     /**
