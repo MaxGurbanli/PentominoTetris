@@ -14,7 +14,6 @@ public class Petris extends JFrame {
 
     public Petris() {
         pentominoShapes = createPentominoShapes();
-        System.out.println(pentominoShapes);
         statusbar = new JLabel(" 0");
         add(statusbar, BorderLayout.SOUTH);
         initUI();
@@ -191,16 +190,15 @@ class GameBoard extends JPanel implements ActionListener {
 
     private void newPiece() {
         curPiece.setRandomShape();
-        curX = BOARD_WIDTH / 2 + 1;
-        curY = BOARD_HEIGHT - 1; // Adjust this as needed
+        curX = BOARD_WIDTH / 2 - 1; // Centering the piece horizontally
+        curY = 1; // Start a bit lower to ensure the piece is within bounds
 
         if (!tryMove(curPiece, curX, curY)) {
-            curPiece.setShape(Tetrominoes.NoShape);
-            timer.stop();
-            isStarted = false;
-            statusbar.setText("GAME OVER");
+            System.out.println("Game Over triggered immediately");
+            triggerGameOver();
         }
     }
+
 
     private void oneLineDown() {
         if (!tryMove(curPiece, curX, curY - 1)) {
@@ -226,37 +224,46 @@ private void dropDown() {
 
 
 private boolean tryMove(Shape newPiece, int newX, int newY) {
-    for (int i = 0; i < 4; ++i) {
+    for (int i = 0; i < 5; ++i) { // Use 5 for pentominoes
         int x = newX + newPiece.x(i);
         int y = newY - newPiece.y(i);
-        
-        if (x < 0 || x >= BOARD_WIDTH || y < 0 || y >= BOARD_HEIGHT)
+
+        if (x < 0 || x >= BOARD_WIDTH || y < 0 || y >= BOARD_HEIGHT) {
+            System.out.println("Out of bounds: " + x + ", " + y);
             return false;
+        }
         
-        if (shapeAt(x, y) != Tetrominoes.NoShape)
+        if (shapeAt(x, y) != Tetrominoes.NoShape) {
+            System.out.println("Collision detected at: " + x + ", " + y);
             return false;
+        }
     }
 
     curPiece = newPiece;
     curX = newX;
     curY = newY;
-    repaint();
     return true;
 }
 
 
 private void pieceDropped() {
-    for (int i = 0; i < 4; ++i) {
+    for (int i = 0; i < 5; ++i) { // Assuming pentominoes have 5 blocks
         int x = curX + curPiece.x(i);
         int y = curY - curPiece.y(i);
 
-        // Check if the coordinates are within the board bounds
-        if (x >= 0 && x < BOARD_WIDTH && y >= 0 && y < BOARD_HEIGHT) {
-            board[(y * BOARD_WIDTH) + x] = curPiece.getShape();
-        } else {
-            // Handle out-of-bounds coordinates
-            // For example, you might set a game over condition or log an error
+        if (x < 0 || x >= BOARD_WIDTH || y < 0 || y >= BOARD_HEIGHT) {
+            System.out.println("Game Over triggered in pieceDropped() due to out of bounds! Coords: " + x + ", " + y);
+            triggerGameOver();
+            return;
         }
+
+        if (shapeAt(x, y) != Tetrominoes.NoShape) {
+            System.out.println("Game Over triggered in pieceDropped() due to collision! Coords: " + x + ", " + y);
+            triggerGameOver();
+            return;
+        }
+
+        board[(y * BOARD_WIDTH) + x] = curPiece.getShape();
     }
 
     removeFullLines();
@@ -264,6 +271,14 @@ private void pieceDropped() {
     if (!isFallingFinished)
         newPiece();
 }
+
+private void triggerGameOver() {
+    curPiece.setShape(Tetrominoes.NoShape);
+    timer.stop();
+    isStarted = false;
+    statusbar.setText("GAME OVER");
+}
+
 
 
 private void removeFullLines() {
@@ -319,6 +334,8 @@ private void drawBoard(Graphics g) {
 
     private void drawSquare(Graphics g, int x, int y, Tetrominoes shape) {
 
+        System.out.println("Drawing square at: " + x + ", " + y + " for shape: " + shape);
+        
         Color color;
 
         switch (shape) {
