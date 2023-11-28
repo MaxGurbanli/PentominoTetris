@@ -191,7 +191,7 @@ class GameBoard extends JPanel implements ActionListener {
     private void newPiece() {
         curPiece.setRandomShape();
         curX = BOARD_WIDTH / 2 - 1; // Centering the piece horizontally
-        curY = 1; // Start a bit lower to ensure the piece is within bounds
+        curY = curPiece.minY(); // Placing the piece at the top of the board
 
         if (!tryMove(curPiece, curX, curY)) {
             System.out.println("Game Over triggered immediately");
@@ -324,7 +324,7 @@ private void drawBoard(Graphics g) {
     }
 
     if (curPiece.getShape() != Tetrominoes.NoShape) {
-        for (int i = 0; i < 4; ++i) {
+        for (int i = 0; i < 5; ++i) {
             int x = curX + curPiece.x(i);
             int y = curY - curPiece.y(i);
             drawSquare(g, x * squareWidth, (BOARD_HEIGHT - y - 1) * squareHeight, curPiece.getShape());
@@ -416,11 +416,10 @@ class Shape {
                 coords[i][j] = 0; // Initialize with 0
             }
         }
-        
-        // Example: coords = new int[][]{{1,0}, {0,1}, {1,1}, {2,1}, {1,2}};
+
         switch (shape) {
             case XShape:
-                coords = new int[][]{{1,0}, {0,1}, {1,1}, {2,1}, {1,2}};
+                coords = new int[][]{{1,2}, {0,3}, {1,3}, {2,3}, {1,4}};
                 break;
             case IShape:
                 coords = new int[][]{{0,0}, {0,1}, {0,2}, {0,3}, {0,4}};
@@ -481,7 +480,7 @@ class Shape {
 
     public int minY() {
         int m = coords[0][1];
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 5; i++) {
             m = Math.min(m, coords[i][1]);
         }
         return m;
@@ -492,7 +491,7 @@ class Shape {
         Shape result = new Shape(pentominoShapes);
         result.pieceShape = pieceShape;
 
-        for (int i = 0; i < 4; ++i) {
+        for (int i = 0; i < 5; ++i) {
             result.setX(i, y(i));
             result.setY(i, -x(i));
         }
@@ -503,7 +502,7 @@ class Shape {
         Shape result = new Shape(pentominoShapes);
         result.pieceShape = pieceShape;
 
-        for (int i = 0; i < 4; ++i) {
+        for (int i = 0; i < 5; ++i) {
             result.setX(i, -y(i));
             result.setY(i, x(i));
         }
