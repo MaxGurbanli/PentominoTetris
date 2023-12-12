@@ -1,0 +1,424 @@
+Weights: 36 7 8 6 4 1
+High score: 35
+Average score: 7.51
+
+Weights: 36 7 8 6 4 1
+High score: 35
+Average score: 7.532
+
+Weights: 36 7 8 6 4 1
+High score: 42
+Average score: 7.761
+
+Weights: 36 7 8 6 4 1
+High score: 37
+Average score: 7.764
+
+Weights: 36 7 8 6 4 1
+High score: 36
+Average score: 7.462
+
+Weights: 36 7 8 6 4 1
+High score: 27
+Average score: 7.453
+
+Weights: 36 7 8 6 4 1
+High score: 30
+Average score: 7.463
+
+Weights: 36 7 8 6 4 1
+High score: 38
+Average score: 7.966
+
+Weights: 36 7 8 6 4 1
+High score: 36
+Average score: 7.594
+
+Weights: 37 7 8 6 4 1
+High score: 41
+Average score: 7.46
+
+Weights: 35 7 8 6 4 1
+High score: 38
+Average score: 7.665
+
+Weights: 35 7 8 6 4 1
+High score: 36
+Average score: 7.514
+
+Weights: 34 7 8 6 4 1
+High score: 36
+Average score: 7.495
+
+Weights: 35 8 8 6 4 1
+High score: 39
+Average score: 7.542
+
+Weights: 35 7 9 6 4 1
+High score: 31
+Average score: 7.71
+
+Weights: 35 7 10 6 4 1
+High score: 33
+Average score: 7.483
+
+Weights: 35 7 9 7 4 1
+High score: 30
+Average score: 7.693
+
+Weights: 35 7 9 6 4 1
+High score: 39
+Average score: 7.621
+
+Weights: 35 7 9 6 4 1
+High score: 34
+Average score: 7.541
+
+Weights: 35 7 9 6 4 1
+High score: 29
+Average score: 7.641
+
+Weights: 35 7 9 6 5 1
+High score: 31
+Average score: 7.658
+
+Weights: 35 7 9 6 5 1
+High score: 30
+Average score: 7.433
+
+Weights: 35 7 9 6 5 5
+High score: 26
+Average score: 5.768
+
+Weights: 35 7 9 6 5 0
+High score: 30
+Average score: 7.459
+
+Weights: 35 7 9 6 5 2
+High score: 29
+Average score: 7.195
+
+Weights: 35 7 9 6 5 -1
+High score: 28
+Average score: 3.3
+
+Weights: 35 7 9 6 5 1
+High score: 29
+Average score: 7.627
+
+Weights: 35 7 9 10 5 1
+High score: 51
+Average score: 7.425
+
+Weights: 31 7 9 10 5 1
+High score: 37
+Average score: 7.109
+
+Weights: 35 7 9 6 6 1
+High score: 35
+Average score: 7.321
+
+Weights: 35 7 9 6 5 1
+High score: 51
+Average score: 7.509
+
+Weights: 35 7 8 6 5 1
+High score: 36
+Average score: 7.809
+
+Weights: 35 8 8 6 5 1
+High score: 41
+Average score: 7.637
+
+Weights: 35 7 9 6 5 1
+High score: 28
+Average score: 7.35
+
+Weights: 35 7 8 6 5 1
+High score: 43
+Average score: 7.721
+
+Weights: 35 7 8 6 5 2
+High score: 29
+Average score: 7.131
+
+Weights: 34 7 8 6 5 2
+High score: 31
+Average score: 6.96
+
+Weights: 35 7 8 6 5 1
+High score: 29
+Average score: 7.616
+
+Weights: 35 7 8 6 5 1
+High score: 32
+Average score: 7.429
+
+Weights: 35 7 8 6 5 1
+High score: 36
+Average score: 7.614
+
+Weights: 35 7 8 6 5 1
+High score: 30
+Average score: 7.631
+
+Weights: 20 7 8 6 5 1
+High score: 35
+Average score: 7.666
+
+Weights: 20 8 8 6 5 1
+High score: 28
+Average score: 7.076
+
+Weights: 20 6 8 6 5 1
+High score: 33
+Average score: 7.426
+
+Weights: 20 7 7 6 5 1
+High score: 50
+Average score: 7.393
+
+Weights: 20 7 6 5 5 1
+High score: 46
+Average score: 7.222
+
+Weights: 20 7 6 6 5 2
+High score: 28
+Average score: 6.329
+
+Weights: 20 7 6 6 5 1
+High score: 34
+Average score: 7.11
+
+Weights: 20 7 6 6 5 1
+High score: 16
+Average score: 2.208
+
+Weights: 20 7 6 6 5 1
+High score: 29
+Average score: 6.878
+
+Weights: 20 7 6 6 6 1
+High score: 28
+Average score: 7.047
+
+Weights: 20 7 1 6 6 1
+High score: 32
+Average score: 6.146
+
+Weights: 20 7 1 6 1 1
+High score: 30
+Average score: 6.227
+
+Weights: 20 1 1 6 1 1
+High score: 29
+Average score: 4.83
+
+Weights: 20 7 15 6 1 1
+High score: 25
+Average score: 7.337
+
+Weights: 20 7 15 6 15 1
+High score: 37
+Average score: 7.153
+
+Weights: 20 7 15 4 15 1
+High score: 27
+Average score: 6.925
+
+Weights: 20 7 15 4 15 20
+High score: 20
+Average score: 3.396
+
+Weights: 20 7 15 4 15 40
+High score: 15
+Average score: 2.761
+
+Weights: 20 7 15 4 15 0
+High score: 33
+Average score: 6.639
+
+Weights: 20 7 15 4 15 1
+High score: 31
+Average score: 7.091
+
+Weights: 20 7 15 4 5 1
+High score: 31
+Average score: 7.184
+
+Weights: 20 7 15 4 20 1
+High score: 29
+Average score: 6.84
+
+Weights: 20 7 15 4 15 1
+High score: 35
+Average score: 7.115
+
+Weights: 20 7 15 14 15 1
+High score: 33
+Average score: 6.638
+
+Weights: 20 17 15 4 15 1
+High score: 35
+Average score: 7.099
+
+Weights: 20 17 5 4 15 1
+High score: 35
+Average score: 6.764
+
+Weights: 20 17 15 4 15 1
+High score: 37
+Average score: 6.765
+
+Weights: 20 17 15 14 15 1
+High score: 27
+Average score: 6.436
+
+Weights: 15 17 15 14 15 1
+High score: 31
+Average score: 6.282
+
+Weights: 15 17 10 14 15 1
+High score: 37
+Average score: 6.241
+
+Weights: 15 17 10 14 10 6
+High score: 24
+Average score: 4.666
+
+Weights: -15 17 10 14 10 1
+High score: 23
+Average score: 3.761
+
+Weights: 15 17 -2 14 10 1
+High score: 24
+Average score: 4.822
+
+Weights: 15 17 10 14 10 1
+High score: 37
+Average score: 6.51
+
+Weights: 9 9 9 4 15 1
+High score: 43
+Average score: 6.328
+
+Weights: 9 9 9 4 1 1
+High score: 29
+Average score: 7.128
+
+Weights: 9 9 9 4 9 1
+High score: 35
+Average score: 6.7
+
+Weights: 9 9 9 9 9 1
+High score: 33
+Average score: 6.02
+
+Weights: 9 9 4 4 9 1
+High score: 32
+Average score: 6.46
+
+Weights: 9 10 4 4 9 1
+High score: 24
+Average score: 6.308
+
+Weights: 9 10 4 4 15 1
+High score: 39
+Average score: 6.114
+
+Weights: 36 7 8 6 4 1
+High score: 29
+Average score: 7.69
+
+Weights: 36 7 8 6 4 1
+High score: 38
+Average score: 7.611
+
+Weights: 36 7 8 6 4 1
+High score: 38
+Average score: 7.685
+
+Weights: 36 7 8 6 4 1
+High score: 30
+Average score: 7.48
+
+Weights: 16 7 8 6 4 1
+High score: 32
+Average score: 6.978
+
+Weights: 26 7 8 6 4 1
+High score: 32
+Average score: 7.472
+
+Weights: 36 7 8 6 4 1
+High score: 29
+Average score: 7.57
+
+Weights: 37 7 8 6 4 1
+High score: 29
+Average score: 7.584
+
+Weights: 38 7 8 6 4 1
+High score: 33
+Average score: 7.568
+
+Weights: 37 8 8 6 4 1
+High score: 36
+Average score: 7.939
+
+Weights: 37 8 8 6 4 1
+High score: 26
+Average score: 7.725
+
+Weights: 37 8 9 6 4 1
+High score: 33
+Average score: 7.714
+
+Weights: 37 10 8 6 4 1
+High score: 29
+Average score: 7.562
+
+Weights: 37 9 8 6 4 1
+High score: 37
+Average score: 7.8
+
+Weights: 37 8 8 6 4 1
+High score: 33
+Average score: 7.592
+
+Weights: 36 8 8 6 4 1
+High score: 30
+Average score: 7.722
+
+Weights: 36 8 8 6 6 1
+High score: 32
+Average score: 7.361
+
+Weights: 36 8 8 6 4 1
+High score: 31
+Average score: 7.537
+
+Weights: 36 8 8 6 6 1
+High score: 40
+Average score: 7.59
+
+Weights: 36 8 8 6 2 1
+High score: 30
+Average score: 7.49
+
+Weights: 36 8 8 6 5 1
+High score: 34
+Average score: 7.408
+
+Weights: 36 8 8 6 4 1
+High score: 29
+Average score: 7.304
+
+Weights: 37 8 8 6 4 1
+High score: 30
+Average score: 7.676
+
+Weights: 36 8 8 6 4 1
+High score: 34
+Average score: 7.582
+
