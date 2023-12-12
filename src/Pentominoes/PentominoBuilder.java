@@ -1,4 +1,4 @@
-package pentominoes;
+package Pentominoes;
 
 /**
  * @author Department of Data Science and Knowledge Engineering (DKE)
