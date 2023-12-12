@@ -101,20 +101,19 @@ public class FeatureFunctions {
                 if (localBoard[i][j] != -1){
                     break;
                 }
-                //nqs ka bllok solid lart dhe posht shtoja shumes
-                //nqs jemi te shtresa me e lart
+                //if we are at the top
                 if (i == 0){
                     if (localBoard[i+1][j] != -1){
                         c_wells_sum += j;
                     }
                 }
-                //nqs jemi te shtresa me e ulet
+                //if we are at the bottom
                 if (i == localBoard.length-1){
                     if (localBoard[i-1][j] != -1){
                         c_wells_sum += j;
                     }
                 }
-                //nqs jemi nga mesi
+                //if we are around the middle
                 if (i != 0 && i != localBoard.length-1){
                     if (localBoard[i-1][j] != -1 && localBoard[i+1][j] != -1){
                         c_wells_sum += j;
