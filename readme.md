@@ -10,10 +10,10 @@ You can use the arrow keys to move the Pentominoes left, right, and down. You ca
 
 ## Authors
 
-* [Pablo](https://gitlab.maastrichtuniversity.nl/I6343451)
-* [Max](https://gitlab.maastrichtuniversity.nl/I6342075)
 * [David](https://gitlab.maastrichtuniversity.nl/I6350383)
-* [Magdy](https://gitlab.maastrichtuniversity.nl/I6362437)
-* [Zenios](https://gitlab.maastrichtuniversity.nl/I6365033)
 * [Ilya](https://gitlab.maastrichtuniversity.nl/I6364930)
 * [Irdi](https://gitlab.maastrichtuniversity.nl/I6350932)
+* [Magdy](https://gitlab.maastrichtuniversity.nl/I6362437)
+* [Max](https://gitlab.maastrichtuniversity.nl/I6342075)
+* [Pablo](https://gitlab.maastrichtuniversity.nl/I6343451)
+* [Zenios](https://gitlab.maastrichtuniversity.nl/I6365033)
