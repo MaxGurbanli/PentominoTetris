@@ -1,4 +1,9 @@
+package pentominoes;
 
+/**
+ * @author Department of Data Science and Knowledge Engineering (DKE)
+ * @version 2022.0
+ */
 
 import java.io.FileNotFoundException;
 //import java.io.FileWriter;
