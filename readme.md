@@ -4,10 +4,6 @@
 
 Instead of using the classic Tetris pieces, Petris uses Pentominoes. Similarly to Tetris, the goal of the game is to clear as many lines as possible. However, instead of clearing lines, you clear Pentominoes. The game is over when the board is full. There is a high score logged in the game alongside the date and time you achieved the score.
 
-## Usage
-
-You can use the arrow keys to move the Pentominoes left, right, and down. You can also rotate the Pentominoes using the up arrow key. The game is over when the board is full. Use space to drop the currently falling block to the bottom of the board.
-
 ## Features
 
 - Innovative gameplay combining Tetris with Pentominoes.
@@ -22,6 +18,10 @@ To run this project, ensure you have Java installed on your system.
 1. Clone the repository: git clone https://github.com/MaxGurbanli/PentominoTetris.git
 2. Navigate to the project directory: cd PentominoTetris
 3. Compile and run the project
+
+## Usage
+
+You can use the arrow keys to move the Pentominoes left, right, and down. You can also rotate the Pentominoes using the up arrow key. The game is over when the board is full. Use space to drop the currently falling block to the bottom of the board.
 
 ## Authors
 
