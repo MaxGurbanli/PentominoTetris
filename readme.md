@@ -1,5 +1,7 @@
 # Petris - A Pentomino Tetris Game
 
+> Group 7, Phase 2
+
 ## Description
 
 Instead of using the classic Tetris pieces, Petris uses Pentominoes. Similarly to Tetris, the goal of the game is to clear as many lines as possible. However, instead of clearing lines, you clear Pentominoes. The game is over when the board is full. There is a high score logged in the game alongside the date and time you achieved the score.
