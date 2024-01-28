@@ -8,6 +8,21 @@ Instead of using the classic Tetris pieces, Petris uses Pentominoes. Similarly t
 
 You can use the arrow keys to move the Pentominoes left, right, and down. You can also rotate the Pentominoes using the up arrow key. The game is over when the board is full. Use space to drop the currently falling block to the bottom of the board.
 
+## Features
+
+- Innovative gameplay combining Tetris with Pentominoes.
+- Interactive and intuitive user interface.
+- High score tracking with date and time.
+- Controls for moving and rotating Pentominoes for strategic placement.
+
+## Installation
+
+To run this project, ensure you have Java installed on your system.
+
+1. Clone the repository: git clone https://github.com/MaxGurbanli/PentominoTetris.git
+2. Navigate to the project directory: cd PentominoTetris
+3. Compile and run the project
+
 ## Authors
 
 * [David](https://gitlab.maastrichtuniversity.nl/I6350383)
